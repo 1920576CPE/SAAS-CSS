@@ -80,6 +80,10 @@
     &__wrapper{
         gap: 4rem;
         margin-bottom: 6rem;
+        @include mediaQuery(){
+            flex-direction: column;
+        }
+
         img{
             width: 376px;
             height: 269px;
@@ -99,6 +103,9 @@
     &__wrapper{
         gap: 4rem;
         margin-bottom: 6rem;
+        @include mediaQuery(){
+            flex-direction: column;
+        }
         img{
             max-width: 376px;
             height: 269px;
@@ -174,6 +181,9 @@ hr{
     background-color: $clr-grey;
     &__wrapper{
         gap: 6rem;
+        @include mediaQuery(){
+            flex-direction: column;
+        }
     }
     &__content{
         h1{
@@ -206,6 +216,9 @@ hr{
         display: flex;
         gap: 1rem;
         margin-bottom: 2rem;
+        @include mediaQuery(){
+            flex-direction: column;
+        }
     }
     li{
         color: $clr-white;

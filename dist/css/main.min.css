@@ -111,6 +111,11 @@ body {
   gap: 4rem;
   margin-bottom: 6rem;
 }
+@media screen and (max-width: 48rem) {
+  .about__wrapper {
+    flex-direction: column;
+  }
+}
 .about__wrapper img {
   width: 376px;
   height: 269px;
@@ -127,6 +132,11 @@ body {
 .location__wrapper {
   gap: 4rem;
   margin-bottom: 6rem;
+}
+@media screen and (max-width: 48rem) {
+  .location__wrapper {
+    flex-direction: column;
+  }
 }
 .location__wrapper img {
   max-width: 376px;
@@ -195,6 +205,11 @@ hr {
 .address__wrapper {
   gap: 6rem;
 }
+@media screen and (max-width: 48rem) {
+  .address__wrapper {
+    flex-direction: column;
+  }
+}
 .address__content h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -225,6 +240,11 @@ hr {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 48rem) {
+  .footer ul {
+    flex-direction: column;
+  }
 }
 .footer li {
   color: #f2f2f2;
